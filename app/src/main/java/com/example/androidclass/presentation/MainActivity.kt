@@ -1,4 +1,4 @@
-package com.example.androidclass
+package com.example.androidclass.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.example.androidclass.R
 import com.example.androidclass.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

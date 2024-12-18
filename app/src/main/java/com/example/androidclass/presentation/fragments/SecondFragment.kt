@@ -1,4 +1,4 @@
-package com.example.androidclass.fragments
+package com.example.androidclass.presentation.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -19,5 +19,10 @@ class SecondFragment : Fragment(R.layout.fragment_first) {
     ): View {
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

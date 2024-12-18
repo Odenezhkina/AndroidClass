@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.androidclass.fragments.FirstFragment"
+        android:name="com.example.androidclass.presentation.fragments.FirstFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" />
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.androidclass.fragments.SecondFragment"
+        android:name="com.example.androidclass.presentation.fragments.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
 </navigation>
